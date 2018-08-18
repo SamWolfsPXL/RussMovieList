@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "206826032620",
+    "firebase_url": "https://russmovielist.firebaseio.com",
+    "project_id": "russmovielist",
+    "storage_bucket": "russmovielist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206826032620:android:6df9e51b536e132b",
+        "android_client_info": {
+          "package_name": "be.samwolfs.russmovielist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206826032620-iacq1c7bn0dhed67h91vqq3916ifvlao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz29d0FdqxcKHnwkrPS2VfSeYNg79s2eA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206826032620:android:8fb66d5488f4ee2f",
+        "android_client_info": {
+          "package_name": "com.example.russmovielist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206826032620-iacq1c7bn0dhed67h91vqq3916ifvlao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz29d0FdqxcKHnwkrPS2VfSeYNg79s2eA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
