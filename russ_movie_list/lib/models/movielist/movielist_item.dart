@@ -14,7 +14,7 @@ class MovieListItem {
        assert(poster != null);
 
   final String title;
-  final int year;
+  final String year;
   final String director;
   final String actors;
   final String poster;
@@ -22,7 +22,7 @@ class MovieListItem {
   factory MovieListItem.fromJson(Map<String, dynamic> json) {
     return MovieListItem(
       title: json['Title'],
-      year: int.parse(json['Year']),
+      year: json['Year'],
       director: json['Director'],
       actors: json['Actors'],
       poster: json['Poster']
