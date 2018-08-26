@@ -9,23 +9,13 @@ import 'package:russ_movie_list/pages/moviesearch_page.dart';
 import 'package:http/http.dart' as http;
 
 class MovieListPage extends StatelessWidget {
-  final String title;
-
-  MovieListPage({Key key, this.title}) : super(key: key);
+  MovieListPage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: AppBar(
-        title: Text('MOVIES'),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.search),
-            onPressed: () {
-              print('Search Button Tapped');
-            },
-          )
-        ],
+        title: Text('Movies'),
       ),
       body: _loadList(),
       floatingActionButton: new FloatingActionButton(

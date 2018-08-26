@@ -8,7 +8,7 @@ class MovieListApp extends StatelessWidget {
     return MaterialApp(
       title: 'Russ\' Movie List',
       theme: _kAppTheme,
-      home: new MovieListPage(title: 'MOVIES'),
+      home: new MovieListPage(),
     );
   }
 }
